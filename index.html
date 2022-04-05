@@ -10,7 +10,7 @@
 function login() {
   const client_id = "e2707839cf064a97b3d335dc77728352";
   const stateString = "State" + Math.random().toString();
-  const redirectUrl = "http://localhost:5000";
+  const redirectUrl = "https://jaabsaxo.github.io/marketdata-manager/";
   const url = "https://sim.logonvalidation.net/authorize?response_type=token&client_id="+client_id+"&state="+stateString+"&redirect_uri="+redirectUrl;
 
   const options = {
