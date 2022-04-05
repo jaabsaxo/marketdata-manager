@@ -2,14 +2,14 @@ import './App.css';
 import TestSessionCapabilities from './TestSessionCapabilities';
 import TestPriceFeed from './TestPriceFeed';
 import React, {useEffect, useState} from "react";
-import parseMessageFrame from "./utils";
+import parseMessageFrame from "../utils";
 
 
 let token = 'eyJhbGciOiJFUzI1NiIsIng1dCI6IkRFNDc0QUQ1Q0NGRUFFRTlDRThCRDQ3ODlFRTZDOTEyRjVCM0UzOTQifQ.eyJvYWEiOiI3Nzc3NSIsImlzcyI6Im9hIiwiYWlkIjoiMTA5IiwidWlkIjoiLWgtSERJWmxDSzZUZno3VXlPcEVNQT09IiwiY2lkIjoiLWgtSERJWmxDSzZUZno3VXlPcEVNQT09IiwiaXNhIjoiRmFsc2UiLCJ0aWQiOiIyMDAyIiwic2lkIjoiZTg1MTk5NDRhNDg2NGVlMTg1MDEyNmE3NjdhYWVlZmQiLCJkZ2kiOiI4NCIsImV4cCI6IjE2NDkyNDg1NzQiLCJvYWwiOiIxRiIsImlpZCI6ImFhOWM0Zjg0MGJiZDRhZTA0NDBhMDhkOWFiM2I5ZDFlIn0.EA4Dd3LWC1Mf_qu6UoZ6a31uZ27YRP9oPpZmKMANFNK3QNZms7cShnOP9qtB2z8iM4pAlUDUqK5qCdZnY8W5pw';
 let contextId = 1232131;
 let refferenceId = "referenceId1234"
 
-function App() {
+function LoggedIn() {
 
   function Login() {
     const data = {
@@ -99,4 +99,4 @@ function App() {
 
 
 
-export default App;
+export default LoggedIn;
