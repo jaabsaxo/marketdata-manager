@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/marketdata-manager/static/css/main.da8bce4c.css",
+    "main.js": "/marketdata-manager/static/js/main.c1578134.js",
+    "index.html": "/marketdata-manager/index.html",
+    "main.da8bce4c.css.map": "/marketdata-manager/static/css/main.da8bce4c.css.map",
+    "main.c1578134.js.map": "/marketdata-manager/static/js/main.c1578134.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da8bce4c.css",
+    "static/js/main.c1578134.js"
+  ]
+}
